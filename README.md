@@ -1,6 +1,6 @@
 # Image Color Detector
 
-This is a simple Python script that detects dominant colors in an image using the K-means clustering algorithm.
+This Color Detector reads the input image and detects the colours in it.
 
 ## Requirements
 

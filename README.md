@@ -9,26 +9,21 @@ The Image Color Detector script analyzes an image and identifies the dominant co
 #Usage
 To use the Image Color Detector, follow these steps:
 
-#Install the required dependencies: 
-OpenCV, 
-NumPy,
-scikit-learn.
+#Install the required dependencies: OpenCV, NumPy, and scikit-learn.
 Run the image_color_detector.py script.
 Provide the path to the image file when prompted.
 The script will display the image and generate a color palette with the dominant colors detected.
 Social Distance Detector
+______________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________
 
 The Social Distance Detector script utilizes a pre-trained deep learning model to detect humans in a video stream or webcam feed and determines if social distancing guidelines are being violated.
 
 #Usage
 To use the Social Distance Detector, follow these steps:
 
-#Install the required dependencies:
-OpenCV, 
-NumPy,
-scipy.
-#Download the pre-trained model files: 
-deploy.prototxt and res10_300x300_ssd_iter_140000.caffemodel.
+#Install the required dependencies: OpenCV, NumPy, and scipy.
+Download the pre-trained model files: deploy.prototxt and res10_300x300_ssd_iter_140000.caffemodel.
 Place the model files in the same directory as the social_distance_detector.py script.
 Run the social_distance_detector.py script.
 The script will open the webcam feed and display the real-time social distance violations, if any.
@@ -46,9 +41,10 @@ The Social Distance Detector script is a basic implementation for educational pu
 
 #License
 
+This project is licensed under the SPARKS Foundation.
+
 Feel free to modify and adapt the scripts according to your needs.
 
 Please refer to the individual scripts for more detailed information and usage instructions.
 
 For any questions or issues, please create an issue in the repository or contact Vaishnavi at maknikarvaishnavi85@gmail.com.
-

@@ -1,61 +1,47 @@
-# Image Color Detector
+Image Color Detector and Social Distance Detector
 
-This Color Detector reads the input image and detects the colours in it.
+This project consists of two Python scripts: Image Color Detector and Social Distance Detector. These scripts utilize computer vision techniques to perform specific tasks.
 
-## Requirements
+Image Color Detector
 
-- Python 3.x
-- OpenCV (cv2) library
-- NumPy library
-- scikit-learn library
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/image-color-detector.git
-   
-2. Change to the project directory:
-   
-   bash
-   cd image-color-detector
-
-3. Install the required dependencies using pip:
-
-   bash
-   pip install -r requirements.txt
+The Image Color Detector script analyzes an image and identifies the dominant colors present in the image. It uses the K-means clustering algorithm to group pixels with similar colors and determine the most representative colors.
 
 Usage
+To use the Image Color Detector, follow these steps:
 
-1. Place your image file in the project directory.
- 
-2. Open color_detector.py and modify the image_path and num_colors variables:
-   image_path = 'path_to_your_image.jpg'
-   num_colors = 5
-   
-3. Run the script:
-   bash
-   python color_detector.py
-   
-4. The script will print the RGB values of the detected dominant colors.
+Install the required dependencies: OpenCV, NumPy, and scikit-learn.
+Run the image_color_detector.py script.
+Provide the path to the image file when prompted.
+The script will display the image and generate a color palette with the dominant colors detected.
+Social Distance Detector
 
-Contributing
+The Social Distance Detector script utilizes a pre-trained deep learning model to detect humans in a video stream or webcam feed and determines if social distancing guidelines are being violated.
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+Usage
+To use the Social Distance Detector, follow these steps:
 
-Acknowledgments
+Install the required dependencies: OpenCV, NumPy, and scipy.
+Download the pre-trained model files: deploy.prototxt and res10_300x300_ssd_iter_140000.caffemodel.
+Place the model files in the same directory as the social_distance_detector.py script.
+Run the social_distance_detector.py script.
+The script will open the webcam feed and display the real-time social distance violations, if any.
+Dependencies
 
-This project is based on the concept of K-means clustering for color detection. Thanks to the scikit-learn library for providing the KMeans implementation.
+OpenCV
+NumPy
+scikit-learn
+scipy
+Please ensure that the required dependencies are installed before running the scripts.
 
-References
+Disclaimer
 
-OpenCV: https://opencv.org/
-NumPy: https://numpy.org/
-scikit-learn: https://scikit-learn.org/
+The Social Distance Detector script is a basic implementation for educational purposes and should not be relied upon for critical applications. It is important to note that accurate social distancing detection requires more sophisticated systems and considerations.
 
-sql
-You can customize the sections and content based on your specific requirements. Make sure to provide appropriate instructions for installation, usage, and licensing. Also, include any acknowledgments or references you may have.
+License
 
+Feel free to modify and adapt the scripts according to your needs.
 
+Please refer to the individual scripts for more detailed information and usage instructions.
+
+For any questions or issues, please create an issue in the repository or contact Vaishnavi at maknikarvaishnavi85@gmail.com.
 

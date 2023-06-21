@@ -1,6 +1,6 @@
 import cv2
 import pandas as pd
-img_path = 'path_to_your_image.jpg'
+img_path = 'SocialDis.jpg'
 csv_path = 'colors.csv'
 index = ['color', 'color_name', 'hex', 'R', 'G', 'B']
 df = pd.read_csv(csv_path, names=index, header=None)
@@ -48,5 +48,3 @@ while True:
 		break
 
 cv2.destroyAllWindows()
-
-
